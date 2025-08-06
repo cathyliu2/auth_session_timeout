@@ -18,7 +18,7 @@ class IrConfigParameter(models.Model):
             .sudo()
             .get_param(
                 DELAY_KEY,
-                300,
+                900,
             )
         )
 
